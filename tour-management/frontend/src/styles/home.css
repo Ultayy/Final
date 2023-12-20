@@ -1,0 +1,212 @@
+.hero__subtitle img {
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.hero__content h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+.hero__content h1 .highlight {
+    color: var(--secondary-color);
+}
+
+.hero__content p{
+    font-size: 1.1rem;
+    color: var(--text-color);
+    line-height: 2rem;
+}
+
+.hero__img-box img,
+.hero__img-box video {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    object-fit: cover;
+}
+
+.hero__content{
+    padding-top: 3.5rem;
+}
+
+.hero__img-box {
+    padding-top: 2rem;
+}
+
+.services__subtitle{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: rgba(0,215,243,0.82);
+    font-family: var(--subtitle-font-name);
+}
+
+.services__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.featured__tour-title {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.experience__content h2{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.experience__content p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+
+.counter__wrapper {
+    margin-top: 2.5rem;
+}
+
+.counter__box span {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.counter__box h6{
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    color: var(--text-color);
+}
+
+.experience__img{
+    width: 100%;
+}
+
+.gallery__title {
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+.masonry__img{
+    transition: .3s;
+}
+
+.masonry__img:hover{
+    transform: scale(1.1);
+}
+
+.testimonial__title {
+    font-size: 2.3rem;
+    margin-top: 1rem;
+}
+
+/* Existing Styles */
+
+/* ... (Your existing styles) ... */
+
+/* Opacity & The Alpha Channel */
+#fade-in-out {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Position Property */
+.hero__content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero__subtitle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+/* CSS Transitions */
+.hero__content h1,
+.hero__content p {
+    transition: color 0.3s ease-in-out;
+}
+
+.hero__content:hover h1,
+.hero__content:hover p {
+    color: var(--secondary-color);
+}
+
+/* Google Fonts - Open Sans */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Existing Styles */
+
+/* ... (Your existing styles) ... */
+
+/* Media Queries for Responsive Design */
+
+/* Small devices (phones) */
+@media (max-width: 576px) {
+    .hero__content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero__content p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .hero__img-box img,
+    .hero__img-box video {
+        height: 200px; /* Adjust as needed */
+    }
+
+    .hero__subtitle img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .hero__content h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero__img-box img,
+    .hero__img-box video {
+        height: 250px; /* Adjust as needed */
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 993px) {
+    .hero__content h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero__img-box img,
+    .hero__img-box video {
+        height: 350px; /* Adjust as needed */
+    }
+}
+
+/* Adjust other styles as needed for different screen sizes */
+
